@@ -1,0 +1,58 @@
+defaultDynamicFeeMultiplier: 0
+minFeeMultiplier: 0
+baseNamespace: iodlt
+currencyName: dollars
+mosaicRentalFee: 0
+rootNamespaceRentalFeePerBlock: 0
+childNamespaceRentalFee: 0
+maxMessageSize: 2048
+maxMultisigDepth: 255
+maxCosignatoriesPerAccount: 255
+maxCosignedAccountsPerAccount: 255
+maxTransactionsPerAggregate: 5000
+maxCosignaturesPerAggregate: 120
+nemesis:
+  mosaics:
+    [
+      {
+        name: dollars,
+        divisibility: 6,
+        duration: 0,
+        supply: 8998999998000000,
+        isTransferable: true,
+        isSupplyMutable: false,
+        isRestrictable: false,
+        currencyDistributions:
+          [
+            {
+              address: TAM36DFL24JF3SDHD6BIWN5RNJ6WJBD4DTZ3FYQ,
+              amount: 1285571428285716,
+            },
+            {
+              address: TDQXDQIUUHCJBOMW3RPT22MBB5W3F4DJNSOEFKY,
+              amount: 1285571428285714,
+            },
+            {
+              address: TBOA7T53M4LAEL2CDJ67M5KACYTAAQ2ANH7B4JI,
+              amount: 1285571428285714,
+            },
+            {
+              address: TAYQFJBMGQ7RNOW5W5M5I2MVF77XGJ47PB2NOQI,
+              amount: 1285571428285714,
+            },
+            {
+              address: TBY66HWXRMT7RHC6BDP5ZRVLD7CK64H7OA2WI6Y,
+              amount: 1285571428285714,
+            },
+            {
+              address: TBKRNHDZ3FKQJWWTZ2EI5SJKPCDRBPIV44IDHZY,
+              amount: 1285571428285714,
+            },
+            {
+              address: TDNFG4YMSNX65MTOOKDND5NPMREAEV6VZOE5ZNQ,
+              amount: 1285571428285714,
+            },
+          ],
+      },
+      { repeat: 0 },
+    ]
