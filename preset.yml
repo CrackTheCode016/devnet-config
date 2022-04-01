@@ -1,5 +1,8 @@
 defaultDynamicFeeMultiplier: 0
 minFeeMultiplier: 0
+nemesisGenerationHashSeed: 57779CC04C1840113D26531D555DE28B16BF37B4506EA622BD6DE7396D32FF80
+# mosaicRentalFeeSinkAddress: TD53JBRHLSC6FBNGGBFZ4IKTTNXF5A3HGND7DHQ
+# namespaceRentalFeeSinkAddress: TD53JBRHLSC6FBNGGBFZ4IKTTNXF5A3HGND7DHQ
 baseNamespace: iodlt
 currencyName: dollars
 mosaicRentalFee: 0
